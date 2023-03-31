@@ -1,0 +1,74 @@
+body
+{
+    background-size: cover;
+}
+
+.heading
+{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    width: 99%;
+}
+
+.note
+{
+    font-size: 16px;
+    font-weight:400;
+    font-family: Montserrat;
+    color: black;
+}
+
+.div_speed
+{
+    float: left;
+}
+
+.div_speed_img
+{
+    width: 200px;
+    border-radius: 100px;
+}
+
+#speed
+{
+    font-size: 25px;
+    font-family: monospace;
+    font-weight: bold;
+    margin: 15px;
+}
+
+.div_volume
+{
+    float: right;
+}
+
+.div_volume_img
+{
+    width: 200px;
+    border-radius: 100px;
+}
+
+#volume
+{
+    font-size: 25px;
+    font-family: monospace;
+    font-weight: bold;
+    margin: 15px;
+}
+
+.play
+{
+    background: linear-gradient(skyblue, blue, darkblue, rgb(16, 16, 67));
+    font-size: 25px;
+    color: cyan;
+    font-family: Caveat;
+}
+
+canvas
+{
+    border: 9px solid cyan;
+    border-radius: 20px;
+    margin: 20px;
+}
